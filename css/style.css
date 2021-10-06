@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
 }
 
 html, body {
@@ -31,6 +32,18 @@ html, body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.boxes .box:nth-child(1) .card a {
+  background: #0077ff;
+}
+
+.boxes .box:nth-child(2) .card a {
+  background: #ff008c;
+}
+
+.boxes .box:nth-child(3) .card a {
+  background: #ffa600;
 }
 
 .boxes .box {
@@ -81,5 +94,13 @@ html, body {
 
 .boxes .box p {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.boxes .box a {
+  color: white;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=style.css.map */
